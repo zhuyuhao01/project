@@ -1,0 +1,104 @@
+.main {
+    background: #f1f2f6;
+    padding-top: 128px;
+}
+.title {
+    text-align: center;
+    color: #311859;
+}
+.global li{
+    margin-top: 30px;
+    margin-left: 30px;
+    
+}
+.global li:hover{
+    transform:translateY(-6px);
+	transition:all 0.3s ease 0s;
+    border: 1px solid #cccccc;
+}
+.title h1 {
+    font: 52px/1em '楷体';
+    font-weight: bold;
+}
+
+.title p {
+    font: 22px/26px 'Microsoft yahei';
+    letter-spacing: 3px;
+}
+
+.title section {
+    height: 20px;
+    padding-top: 10px;
+}
+.tit {
+    height: 50px;
+    color: #311859;
+    padding-top: 4px;
+    font: 28px/1em '楷体';
+    background: url(../img/pen_line_long.png) no-repeat 10px bottom,
+        url(../img/pen.png) no-repeat right 1px;
+}
+.global{
+    width: 100%;
+}
+.first{
+    position: relative;
+    width: 515px;
+    height: 240px;
+    border: 1px solid white;
+    background: white;
+    line-height: 20px;
+    font-family: '楷体';
+}
+.describe{
+    position: absolute;
+    left: 296px;
+    top: 56px;
+    color: black;
+}
+.first img{
+    margin-top: 38px;
+    margin-left: 20px;
+}
+.first h6{
+    font-size: 16px;
+    text-align: left;
+}
+.first span{
+    font-size: 10px;
+}
+.first p{
+    font-size: 14px;
+    line-height: 30px;
+}
+.all .second{
+    left: 30px;
+}
+.all{
+    /* margin-top: 0px;
+    margin-bottom: 10px; */
+}
+
+.xiala{
+    margin-top: 50px;
+    height: 380px;;
+}
+.xiala{
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.more{
+    position: absolute;
+    width: 58px;
+    height: 58px;
+    background: url(../img/lis_more_btn_bg.png) no-repeat 0 -58px;
+    left: 0;
+    right: 0;
+    top: 200px;
+    margin: auto;
+    cursor: pointer;
+}
+.more:hover{
+    background-position-y: 0;
+}

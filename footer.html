@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="./css/base.css"> -->
+    <link rel="stylesheet" href="./css/footer.css">
+    <script>
+        $(function(){
+            $('.music>li').on('click',function(){
+                // 创建音频节点添加进页面并自动播放
+                var temp = $('<audio src="./music/sound0'+ $(this).index() +'.mp3" autoplay></audio>');
+                $('.footer').append(temp);
+                // 监听音频播放结束
+                temp.on('ended',function(){
+                    // 当音频结束，清楚当前音频
+                    $(this).remove()
+                })
+            })
+        })
+    </script>
+    <script type="text/html">
+        <audio controls autoplay preload="auto" loop>
+            <source src="./music/sound00.mp3">
+            <!-- <source src="./music/sound00.wav"> -->
+            <!-- <source src="./music/sound00.ogg"> -->
+            当前浏览器不支持
+        </audio>
+    </script>
+</head>
+
+<body>
+    <section class="footer">
+        
+    <div class="tu"></div>
+        <div class="container">
+            <div class="top">
+                <ul class="music clearfix">
+                    <li class="one"></li>
+                    <li class="one1"></li>
+                    <li class="one2"></li>
+                    <li class="one3"></li>
+                    <li class="one4"></li>
+                    <li class="one5"></li>
+                    <li class="one6"></li>
+                </ul>
+            </div>
+            <div class="bottom">
+                <p>蜀ICP备16002451号</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>

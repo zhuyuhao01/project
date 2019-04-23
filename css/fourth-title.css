@@ -1,0 +1,96 @@
+.main {
+    background: #f1f2f6;
+}
+.one>.container{
+    background: white;
+    padding-top: 1px;
+    height: 2000px;
+}
+.container-two{
+    width: 780px;
+    margin: 0 auto;
+}
+.title {
+    text-align: center;
+    color: #311859;
+    margin-top: 78px;
+}
+
+.title h1 {
+    font: 52px/1em '楷体';
+    font-weight: bold;
+}
+
+.title p {
+    font: 22px/26px 'Microsoft yahei';
+    letter-spacing: 3px;
+}
+
+.title section {
+    height: 20px;
+    padding-top: 10px;
+}
+.tit {
+    height: 50px;
+    color: #311859;
+    margin-top: 60px;
+    margin-bottom: 18px;
+    font: 28px/1em '楷体';
+    background: url(../img/pen_line_long.png) no-repeat 5px bottom,
+        url(../img/pen.png) no-repeat right -5px;
+}
+.time{
+    font: 12px/50px '楷体';
+}
+img{
+    margin-bottom: 60px;
+}
+.container-two>.word{
+    margin-top: 40px;
+    font: 15px/20px '楷体';
+}
+.container-two>.word h4{
+    font-size: 20px;
+}
+.ending{
+    margin-left: 350px;
+    margin-top: 60px;
+}
+.niangniang{
+    width: 256px;
+    height: 78px;
+    background: #cccccc;
+    text-align: center;
+    line-height: 78px;
+    margin: 0 auto;
+    margin-top: 24px;
+    cursor: pointer;
+    border-radius: 10px 10px;
+    display: none;
+}
+.lover{
+    width: 73px;
+    height: 73px;
+    background: url(../img/article_iflike.png) no-repeat 0 0;
+    cursor: pointer;
+}
+/* .lover:hover{
+    background-position-y: -73px;
+    animation: 1s linear 0s su-pudding;
+    vertical-align: middle;
+} */
+.popularity{
+    width: 135px;
+    height: 35px;
+    background: url(../img/article_iflike_nomberbg.png) no-repeat -135px 0;
+    text-align: center;
+    line-height: 35px;
+    color: white;
+    margin-top: 18px;
+    right: 0;
+    cursor: pointer;
+}
+.lover:hover+.popularity{
+    background: url(../img/article_iflike_nomberbg.png) no-repeat 0 0;
+    transition: all 0.5s ease-in-out;
+}
